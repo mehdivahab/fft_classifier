@@ -9,6 +9,7 @@
 # Treshold size in bytes (size<treshold_size)?(art_clip):(photo)
 treshold_size=1000000
 
+mkdir -p mag_images
 cd  images
 for FN in *
 do
