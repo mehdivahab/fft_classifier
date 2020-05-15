@@ -1,11 +1,13 @@
 #!/bin/bash
 # A poor man's art clip classifier using ImageMagick
-# Initiated on 2020-05-13
-# Clead-up to put on Git
-
+# Initiated on 2020-05-13 (Mehdi Vahab mehdi.vahab@gmail.com)
+# Cleaned-up to put on Git on 2020-05-14 (Mehdi Vahab mehdi.vahab@gmail.com)
+#
+# Reference: http://www.imagemagick.org/Usage/fourier/
+#
 # Image files are supposed to be in ./image/
 # The output scaled magnitude spectrum images are written in ./mag_images
-
+#
 # Treshold size in bytes (size<treshold_size)?(art_clip):(photo)
 treshold_size=1000000
 
